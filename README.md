@@ -1,21 +1,10 @@
 # ExBanking
 
-**TODO: Add description**
+**This an Elixir application developed to cater the functionality of ExBank**
 
-## Installation
+## How to run the application
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `exbanking` to your list of dependencies in `mix.exs`:
+Go to root folder and type iex -S mix
+Then run ExBanking.Supervisor.start_link([])
 
-```elixir
-def deps do
-  [
-    {:exbanking, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/exbanking](https://hexdocs.pm/exbanking).
 
