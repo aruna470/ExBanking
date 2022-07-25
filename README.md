@@ -10,9 +10,9 @@ ExBanking.Supervisor.start_link([])
 
 ## Following methods can be executed
 ```elixir
-ExBanking.create_user("Jhon") <br />
-ExBanking.deposit("Jhon", 10, "USD") <br />
-ExBanking.withdraw("Jhon", 5, "USD") <br />
-ExBanking.get_balance("Jhon", "USD") <br />
-ExBanking.send("Jhon", "Anne", 10, "USD") <br />
+ExBanking.create_user("Jhon")
+ExBanking.deposit("Jhon", 10, "USD")
+ExBanking.withdraw("Jhon", 5, "USD")
+ExBanking.get_balance("Jhon", "USD")
+ExBanking.send("Jhon", "Anne", 10, "USD")
 ```
