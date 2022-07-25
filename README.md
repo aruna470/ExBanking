@@ -4,7 +4,8 @@
 
 ## How to run the application
 
-Go to root folder and type iex -S mix
-Then run ExBanking.Supervisor.start_link([])
+Go to root folder and type <br />
+iex -S mix <br />
+ExBanking.Supervisor.start_link([])
 
 
